@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDE6E199BDFF14DB4B9ADC7 /* Pods_GIF_E.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC5D02A9DE95AF1F7A3C049 /* Pods_GIF_E.framework */; };
+		8C65490C24C642F500D88BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C65490B24C642F500D88BA2 /* Assets.xcassets */; };
+		8C65490F24C642F500D88BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C65490D24C642F500D88BA2 /* LaunchScreen.storyboard */; };
+		8C65491C24C6482D00D88BA2 /* GIFSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65491924C6482D00D88BA2 /* GIFSearchViewController.swift */; };
+		8C65491D24C6482D00D88BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65491A24C6482D00D88BA2 /* AppDelegate.swift */; };
+		8C65491E24C6482D00D88BA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65491B24C6482D00D88BA2 /* SceneDelegate.swift */; };
+		8C65492224C64A0500D88BA2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492124C64A0500D88BA2 /* API.swift */; };
+		8C65492524C65F7C00D88BA2 /* Optional+Cam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492424C65F7C00D88BA2 /* Optional+Cam.swift */; };
+		8C65492724C6622200D88BA2 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492624C6622200D88BA2 /* APIRequest.swift */; };
+		8C65492924C6629E00D88BA2 /* GiphyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492824C6629E00D88BA2 /* GiphyRequest.swift */; };
+		8C65492B24C6632300D88BA2 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492A24C6632300D88BA2 /* GIF.swift */; };
+		8C65492E24C6645400D88BA2 /* GIFCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492D24C6645400D88BA2 /* GIFCell.swift */; };
+		8C65493024C6699D00D88BA2 /* GiphyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65492F24C6699D00D88BA2 /* GiphyResponse.swift */; };
+		8C65493324C66E8900D88BA2 /* StringConverted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65493224C66E8900D88BA2 /* StringConverted.swift */; };
+		8C65493524C67B5800D88BA2 /* GIFDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65493424C67B5800D88BA2 /* GIFDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CC5D02A9DE95AF1F7A3C049 /* Pods_GIF_E.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIF_E.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6548FF24C642F400D88BA2 /* GIF-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIF-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C65490B24C642F500D88BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C65490E24C642F500D88BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C65491024C642F500D88BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C65491924C6482D00D88BA2 /* GIFSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFSearchViewController.swift; sourceTree = "<group>"; };
+		8C65491A24C6482D00D88BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C65491B24C6482D00D88BA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C65492124C64A0500D88BA2 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8C65492424C65F7C00D88BA2 /* Optional+Cam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Cam.swift"; sourceTree = "<group>"; };
+		8C65492624C6622200D88BA2 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8C65492824C6629E00D88BA2 /* GiphyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyRequest.swift; sourceTree = "<group>"; };
+		8C65492A24C6632300D88BA2 /* GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
+		8C65492D24C6645400D88BA2 /* GIFCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFCell.swift; sourceTree = "<group>"; };
+		8C65492F24C6699D00D88BA2 /* GiphyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyResponse.swift; sourceTree = "<group>"; };
+		8C65493224C66E8900D88BA2 /* StringConverted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConverted.swift; sourceTree = "<group>"; };
+		8C65493424C67B5800D88BA2 /* GIFDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFDetailViewController.swift; sourceTree = "<group>"; };
+		A62CB72B968F9A2F39C6C741 /* Pods-GIF-E.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF-E.release.xcconfig"; path = "Target Support Files/Pods-GIF-E/Pods-GIF-E.release.xcconfig"; sourceTree = "<group>"; };
+		B9FF57B4EE039FEEF8D7DCC5 /* Pods-GIF-E.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIF-E.debug.xcconfig"; path = "Target Support Files/Pods-GIF-E/Pods-GIF-E.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6548FC24C642F400D88BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDE6E199BDFF14DB4B9ADC7 /* Pods_GIF_E.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6548F624C642F400D88BA2 = {
+			isa = PBXGroup;
+			children = (
+				8C65490124C642F400D88BA2 /* GIF-E */,
+				8C65490024C642F400D88BA2 /* Products */,
+				D46C2A7EC344649E7FDCAAAC /* Pods */,
+				EEB437A5354AF3313EF74762 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C65490024C642F400D88BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6548FF24C642F400D88BA2 /* GIF-E.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C65490124C642F400D88BA2 /* GIF-E */ = {
+			isa = PBXGroup;
+			children = (
+				8C65491724C6482D00D88BA2 /* Classes */,
+				8C65490B24C642F500D88BA2 /* Assets.xcassets */,
+				8C65490D24C642F500D88BA2 /* LaunchScreen.storyboard */,
+				8C65491024C642F500D88BA2 /* Info.plist */,
+			);
+			path = "GIF-E";
+			sourceTree = "<group>";
+		};
+		8C65491724C6482D00D88BA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C65491A24C6482D00D88BA2 /* AppDelegate.swift */,
+				8C65491B24C6482D00D88BA2 /* SceneDelegate.swift */,
+				8CC25DB824C72B7F00FD48DC /* 3rd Party */,
+				8C65492324C65F6B00D88BA2 /* Extensions */,
+				8C65491F24C6484200D88BA2 /* Models */,
+				8C65492024C648C600D88BA2 /* Networking */,
+				8C65491824C6482D00D88BA2 /* ViewControllers */,
+				8C65492C24C6644000D88BA2 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C65491824C6482D00D88BA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C65493424C67B5800D88BA2 /* GIFDetailViewController.swift */,
+				8C65491924C6482D00D88BA2 /* GIFSearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C65491F24C6484200D88BA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C65492A24C6632300D88BA2 /* GIF.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C65492024C648C600D88BA2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8C65492124C64A0500D88BA2 /* API.swift */,
+				8C65492624C6622200D88BA2 /* APIRequest.swift */,
+				8C65492824C6629E00D88BA2 /* GiphyRequest.swift */,
+				8C65492F24C6699D00D88BA2 /* GiphyResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8C65492324C65F6B00D88BA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C65492424C65F7C00D88BA2 /* Optional+Cam.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C65492C24C6644000D88BA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C65492D24C6645400D88BA2 /* GIFCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CC25DB824C72B7F00FD48DC /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				8C65493224C66E8900D88BA2 /* StringConverted.swift */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		D46C2A7EC344649E7FDCAAAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9FF57B4EE039FEEF8D7DCC5 /* Pods-GIF-E.debug.xcconfig */,
+				A62CB72B968F9A2F39C6C741 /* Pods-GIF-E.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEB437A5354AF3313EF74762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5D02A9DE95AF1F7A3C049 /* Pods_GIF_E.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6548FE24C642F400D88BA2 /* GIF-E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C65491324C642F500D88BA2 /* Build configuration list for PBXNativeTarget "GIF-E" */;
+			buildPhases = (
+				5ECAF10616CDAA430FAB97C7 /* [CP] Check Pods Manifest.lock */,
+				8C6548FB24C642F400D88BA2 /* Sources */,
+				8C6548FC24C642F400D88BA2 /* Frameworks */,
+				8C6548FD24C642F400D88BA2 /* Resources */,
+				6D0396731B72768A321E52FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GIF-E";
+			productName = "GIF-E";
+			productReference = 8C6548FF24C642F400D88BA2 /* GIF-E.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6548F724C642F400D88BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cam Hunt";
+				TargetAttributes = {
+					8C6548FE24C642F400D88BA2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8C6548FA24C642F400D88BA2 /* Build configuration list for PBXProject "GIF-E" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6548F624C642F400D88BA2;
+			productRefGroup = 8C65490024C642F400D88BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6548FE24C642F400D88BA2 /* GIF-E */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6548FD24C642F400D88BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C65490F24C642F500D88BA2 /* LaunchScreen.storyboard in Resources */,
+				8C65490C24C642F500D88BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ECAF10616CDAA430FAB97C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIF-E-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0396731B72768A321E52FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIF-E/Pods-GIF-E-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GIF-E/Pods-GIF-E-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GIF-E/Pods-GIF-E-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6548FB24C642F400D88BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C65493524C67B5800D88BA2 /* GIFDetailViewController.swift in Sources */,
+				8C65492924C6629E00D88BA2 /* GiphyRequest.swift in Sources */,
+				8C65491D24C6482D00D88BA2 /* AppDelegate.swift in Sources */,
+				8C65493024C6699D00D88BA2 /* GiphyResponse.swift in Sources */,
+				8C65493324C66E8900D88BA2 /* StringConverted.swift in Sources */,
+				8C65492B24C6632300D88BA2 /* GIF.swift in Sources */,
+				8C65492724C6622200D88BA2 /* APIRequest.swift in Sources */,
+				8C65491C24C6482D00D88BA2 /* GIFSearchViewController.swift in Sources */,
+				8C65492224C64A0500D88BA2 /* API.swift in Sources */,
+				8C65491E24C6482D00D88BA2 /* SceneDelegate.swift in Sources */,
+				8C65492524C65F7C00D88BA2 /* Optional+Cam.swift in Sources */,
+				8C65492E24C6645400D88BA2 /* GIFCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C65490D24C642F500D88BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C65490E24C642F500D88BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C65491124C642F500D88BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C65491224C642F500D88BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C65491424C642F500D88BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FF57B4EE039FEEF8D7DCC5 /* Pods-GIF-E.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKFCVL468D;
+				INFOPLIST_FILE = "GIF-E/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.hunt.GIF-E";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C65491524C642F500D88BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62CB72B968F9A2F39C6C741 /* Pods-GIF-E.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKFCVL468D;
+				INFOPLIST_FILE = "GIF-E/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.hunt.GIF-E";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6548FA24C642F400D88BA2 /* Build configuration list for PBXProject "GIF-E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65491124C642F500D88BA2 /* Debug */,
+				8C65491224C642F500D88BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C65491324C642F500D88BA2 /* Build configuration list for PBXNativeTarget "GIF-E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65491424C642F500D88BA2 /* Debug */,
+				8C65491524C642F500D88BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6548F724C642F400D88BA2 /* Project object */;
+}

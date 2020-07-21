@@ -1,0 +1,6 @@
+framework module Pods_GIF_E {
+  umbrella header "Pods-GIF-E-umbrella.h"
+
+  export *
+  module * { export * }
+}

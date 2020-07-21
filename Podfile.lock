@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - SwiftyGif (5.3.0)
+  - WaterfallLayout (0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - SwiftyGif
+  - WaterfallLayout (~> 0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyGif
+    - WaterfallLayout
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
+  WaterfallLayout: 030e04b041e5c6c47ae2c1eaa685c60289fab0b1
+
+PODFILE CHECKSUM: 1f28811ddb7c5aa79521f50636c2ea54ba1cd797
+
+COCOAPODS: 1.9.3

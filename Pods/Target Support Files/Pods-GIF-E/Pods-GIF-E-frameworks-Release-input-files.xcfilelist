@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-GIF-E/Pods-GIF-E-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework
+${BUILT_PRODUCTS_DIR}/WaterfallLayout/WaterfallLayout.framework
