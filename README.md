@@ -17,12 +17,12 @@ If you'd like to run this app:
 
 ## Overview
 
-The main view controller is `GIFSearchViewController`, this handles the user search query, requesting results from the Giphy API, displaying them, requesting additional pages of results, and handling behavior when a user taps on a GIF. The networking layer  (`API` and `APIRequest`) is a pattern I've used previously. Honestly, it's a bit overkill for a project that only needs to interact with one endpoint, but it's my preferred way to set up networking with `Codable` models. `GIF` is the main model and includes child model `Image` that represents the various sizes available. `GiphyResponse` models Giphy's response schema and includes a child `GiphyPagination` model for pagination data. I've used some example code from John Sundell to safely convert the number strings from the Giphy API into actual numbers. 
+The main view controller is `GIFSearchViewController`, this handles the user search query, requesting results from the Giphy API, displaying them, requesting additional pages of results, and handling behavior when a user taps on a GIF. `GIFDetailViewController` displays a GIF fullscreen and handles functionality to save or copy the GIF. The networking layer (`API` and `APIRequest`) is a pattern I've used previously. Honestly, it's a bit overkill for a project that only needs to interact with one endpoint, but it's my preferred way to set up networking with `Codable` models. `GIF` is the main model and includes child model `Image` that represents the various sizes available. `GiphyResponse` models Giphy's response schema and includes a child `GiphyPagination` model for pagination data. I've used some example code from John Sundell to safely convert the number strings from the Giphy API into actual numbers. 
 
 
 ## Improvements
 
-If I continued to work on this project, I'd first find a replacement for SwiftyGif. It's rare, but some GIFs fail to animate. The image `Data` not play nice with `UIActivityViewController`. I suspect it may be altering the `Data` or transforming it in some way, although I did not have time to investigate. I'd have to research solutions, although `FLAnimatedImage` looks promising since it is widely used.
+If I continued to work on this project, I'd first find a replacement for SwiftyGif. It's rare, but some GIFs fail to animate. The image `Data` not play nice with `UIActivityViewController`. I suspect it may be altering the image `Data` or transforming it in some way, although I did not have time to investigate. I'd have to research solutions, although `FLAnimatedImage` looks promising since it is widely used.
 
 Next I'd set the deployement target to iOS 10 or 11. It's a good idea to support as many iOS versions as possible. Even if it's a lot more work, it's worth it to support as many users as possible.
 
